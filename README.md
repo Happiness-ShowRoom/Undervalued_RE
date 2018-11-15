@@ -34,7 +34,7 @@ Navigate to "Configuration" folder and run:
 protractor conf.js
 ```
 
-Results will be outputted to "Results.xlsx" once the execution has finished.
+Results will be outputted to "Results.xlsx" once the execution has finished, showing only those properties listed for less than an estimated market value.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
