@@ -4,7 +4,7 @@ Undervalued_RE helps you to locate undervalued Real Estate based on your search 
 
 ## Installation
 
-Download [Node.js](https://nodejs.org/en/download/) to run the Undervalued_RE.
+Download and install [Node.js](https://nodejs.org/en/download/) to run the Undervalued_RE.
 To create a package.json file, on the command line, in the root directory of the framework module, run:
 
 
@@ -30,7 +30,7 @@ After all the node modules have been downloaded, navigate to "TestData" folder, 
 ```
 Navigate to "Configuration" folder and run:
 
-```
+```bash
 protractor conf.js
 ```
 
