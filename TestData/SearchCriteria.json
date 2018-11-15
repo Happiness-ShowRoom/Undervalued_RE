@@ -1,0 +1,25 @@
+{
+    "acceptableInput": {
+        "city": "City, TX",
+        "propertyType": "house+condo+townhouse+multifamily+land",
+        "minPrice": "***k",
+        "maxPrice": "***k",
+        "minBeds" : "2",
+        "maxBeds" : "5",
+        "maxDaysOnMarket" : "30",
+        "hasGarage" : "has-garage",
+        "status" : "active+pending+contingent+comingsoon"
+    },
+
+    "appData":{
+        "city": "Alexandria, VA",
+        "propertyType": "house+townhouse",
+        "minPrice": "400k",
+        "maxPrice": "500k",
+        "minBeds" : "2",
+        "maxBeds" : "",
+        "maxDaysOnMarket" : "",
+        "hasGarage" : "",
+        "status" : "active"
+    }
+}

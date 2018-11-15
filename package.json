@@ -1,0 +1,22 @@
+{
+  "name": "undervaluedre",
+  "version": "1.0.0",
+  "description": "Undervalued RE crawler",
+  "main": "index.js",
+  "scripts": {
+    "test": "protractor conf.js"
+  },
+  "keywords": [
+    "protractor"
+  ],
+  "author": "Marat Metoff",
+  "license": "MIT",
+  "devDependencies": {
+    "csvtojson": "^2.0.8",
+    "exceljs": "^1.6.2",
+    "jasmine-data-provider": "^2.2.0",
+    "jasmine-spec-reporter": "^4.2.1",
+    "protractor": "^5.4.1",
+    "protractor-beautiful-reporter": "^1.2.5"
+  }
+}
