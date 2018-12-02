@@ -5,11 +5,11 @@ Undervalued_RE helps you to locate undervalued Real Estate based on your search 
 ## Installation
 
 Download and install [Node.js](https://nodejs.org/en/download/) to run the Undervalued_RE.
-To create a package.json file, on the command line, in the root directory of the framework module, run:
+To install all the required npm modules, on the command line, in the root directory of the framework module, run:
 
 
 ```bash
-npm init
+npm install
 ```
 
 ## Usage
