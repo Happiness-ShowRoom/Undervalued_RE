@@ -13,26 +13,23 @@ npm install
 ```
 
 ## Usage
-After all the node modules have been downloaded, navigate to "TestData" folder, open the "SearchCriteria.json" file and specify the criteria for your query.   
+After all the node modules have been downloaded, Navigate to "Configuration" folder and run: "protractor Configuration/conf.js <parameters>"
 
-```
-"appData":{
-        "city": "Arlington, TX",
-        "propertyType": "house+townhouse",
-        "minPrice": "400k",
-        "maxPrice": "500k",
-        "minBeds" : "2",
-        "maxBeds" : "5",
-        "maxDaysOnMarket" : "30",
-        "hasGarage" : "has-garage",
-        "status" : "active"
-    }
-```
-Navigate to "Configuration" folder and run:
+Parameters are passing after command fallow by "-": example: "protractor Configuration/conf.js -c='21136' -p=100 -P=500".
 
-```bash
-protractor conf.js
-```
+'city (-c)' - required, other are optionals, and they have default values. 
+
+Arguments List: 
+"  -c, --city             city and state for serching         [string] [required]
+  -t, --propertyType     Property Type for serching                     [string] default: 'house+condo+townhouse+multifamily+land'
+  -p, --minPrice         Minimum Price for serching                     [number] default: '0'
+  -P, --maxPrice         Maximum Price for serching                     [number] default: '999K'
+  -b, --minBeds          Minimum Beds for serching                      [number] default: '1'
+  -B, --maxBeds          Maximum Beds for serching                      [number] default: '7'
+  -d, --maxDaysOnMarket  Max Days On Market for serching                [number] default: '30'
+  -g, --hasGarage        Has-Garage for serching                        [string] default: 'has-garage'
+  -s, --status           Status of Listing for serching                 [string] default: 'active'"
+  
 
 Results will be outputted to "Results.xlsx" once the execution has finished, showing only those properties listed for less than an estimated market value.
 
