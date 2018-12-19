@@ -27,7 +27,7 @@ city (-c)
 
 Arguments List: 
 ```bash
- -c, --city             city and state for serching         [string] [required]
+ -c, --city             city/state/zip code for serching         [string] [required]
   -t, --propertyType     Property Type for serching                     [string] default: 'house+condo+townhouse+multifamily+land'
   -p, --minPrice         Minimum Price for serching                     [number] default: '0'
   -P, --maxPrice         Maximum Price for serching                     [number] default: '999K'
