@@ -15,11 +15,18 @@ npm install
 ## Usage
 After all the node modules have been downloaded, Navigate to "Configuration" folder and run: "protractor Configuration/conf.js <parameters>"
 
-Parameters are passing after command fallow by "-": example: "protractor Configuration/conf.js -c='21136' -p=100 -P=500".
+Parameters are passing after command fallow by "-": example: 
+```bash
+protractor Configuration/conf.js -c='21136' -p=100 -P=500
+```
 
-'city (-c)' - required, other are optionals, and they have default values. 
+```bash 
+city (-c)
+```
+ - required, other are optionals, and they have default values. 
 
 Arguments List: 
+```bash
 "  -c, --city             city and state for serching         [string] [required]
   -t, --propertyType     Property Type for serching                     [string] default: 'house+condo+townhouse+multifamily+land'
   -p, --minPrice         Minimum Price for serching                     [number] default: '0'
@@ -29,7 +36,8 @@ Arguments List:
   -d, --maxDaysOnMarket  Max Days On Market for serching                [number] default: '30'
   -g, --hasGarage        Has-Garage for serching                        [string] default: 'has-garage'
   -s, --status           Status of Listing for serching                 [string] default: 'active'"
-  
+  ```
+
 
 Results will be outputted to "Results.xlsx" once the execution has finished, showing only those properties listed for less than an estimated market value.
 
