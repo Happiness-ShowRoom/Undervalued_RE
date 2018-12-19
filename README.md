@@ -27,7 +27,7 @@ city (-c)
 
 Arguments List: 
 ```bash
-"  -c, --city             city and state for serching         [string] [required]
+ -c, --city             city and state for serching         [string] [required]
   -t, --propertyType     Property Type for serching                     [string] default: 'house+condo+townhouse+multifamily+land'
   -p, --minPrice         Minimum Price for serching                     [number] default: '0'
   -P, --maxPrice         Maximum Price for serching                     [number] default: '999K'
@@ -35,7 +35,7 @@ Arguments List:
   -B, --maxBeds          Maximum Beds for serching                      [number] default: '7'
   -d, --maxDaysOnMarket  Max Days On Market for serching                [number] default: '30'
   -g, --hasGarage        Has-Garage for serching                        [string] default: 'has-garage'
-  -s, --status           Status of Listing for serching                 [string] default: 'active'"
+  -s, --status           Status of Listing for serching                 [string] default: 'active'
   ```
 
 
