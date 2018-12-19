@@ -1,5 +1,6 @@
 let SpecReporter = require("jasmine-spec-reporter").SpecReporter;
 let HtmlReporter = require("protractor-beautiful-reporter");
+const fileProperty = require('../Utilities/CreatingSearchData');
 
 exports.config = {
     
@@ -26,7 +27,7 @@ exports.config = {
     specs: ['../Tests/FindUndervalued.spec.js'],
 
     onPrepare: function() {
-
+        fileProperty.setSearchData();
         browser.driver.manage().window().maximize();
         browser.manage().timeouts().implicitlyWait(5000);
         jasmine.getEnv().addReporter(new SpecReporter({
